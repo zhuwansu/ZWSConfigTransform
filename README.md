@@ -19,13 +19,13 @@ Transform a part elements of  appSettings and connectionstrings for your web.con
 
 ##### 项目配置目录结构
 
-> **-proj 项目目录**
+> -proj 项目目录
 >
->     **-Config 目录**（新建）
+>     -Config 目录（新建）
 >
->         -Debug.config 文件   ** 替换 Base.config 中 APPSettings、 connectionStrings 中部分子节点 **
+>         -Debug.config 文件   * 替换 Base.config 中 APPSettings、 connectionStrings 中部分子节点 *
 >
->         -Release.config 文件 ** 替换 Base.config 中 APPSettings、 connectionStrings 中部分子节点 **
+>         -Release.config 文件 * 替换 Base.config 中 APPSettings、 connectionStrings 中部分子节点 *
 
 ##### 示例
 
