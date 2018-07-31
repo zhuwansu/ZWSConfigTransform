@@ -1,5 +1,7 @@
-# ZWSConfigTransform
-Transform a part elements of  appSettings and connectionstrings for your web.config or app.config
+# ConfigTransform
+生成事件中调用此独立程序转换 appsettings 和 connectionstrings 中 的一部分 </add> 节点，参照分别是 key 和 name。
+此方案是根据官方建议的[如何使用生成事件？](https://msdn.microsoft.com/zh-cn/library/ke5z92ks.aspx)，开发出简单易用的配置文件管理程序。
+你可以尝试其他方案，[.net framework 灵活配置](https://www.cnblogs.com/zhuwansu/p/9262561.html)。
 
 #### Web.config 配置方案
 
@@ -21,9 +23,9 @@ Transform a part elements of  appSettings and connectionstrings for your web.con
 
 > ```
 > -proj 项目目录
->     -Config 目录 *//新建*
->         -Debug.config 文件   *//替换 Base.config 中 APPSettings、 connectionStrings 中部分子节点*
->         -Release.config 文件 *//替换 Base.config 中 APPSettings、 connectionStrings 中部分子节点*
+>     -Config 目录 *新建*
+>         -Debug.config 文件   *替换 Base.config 中 APPSettings、 connectionStrings 中部分子节点*
+>         -Release.config 文件 *替换 Base.config 中 APPSettings、 connectionStrings 中部分子节点*
 > ```
 
 ##### 示例
